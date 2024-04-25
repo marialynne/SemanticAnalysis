@@ -1,0 +1,71 @@
+grammar SemanticAnalysis;
+
+// Parser
+program:
+    (declaration|statement|function)*
+    ;
+
+declaration:
+    CONST data_type ident ';' #constDecl
+    | data_type ident ';' #varDecl
+    ;
+
+statement:
+    expr '=' expr ';' #assign
+    | IF '(' expr ')' '{' statement* '}' (ELSE '{' statement* '}')? ';' #if_else
+    | WHILE '(' expr ')' '{' statement* '}' ';' #while
+    | ID '('( ID? | ID(',' ID)* )')' ';' #functionCall
+;
+
+function:
+    FUNC data_type ID '(' (data_type ident (',' data_type ident)*)? ')'
+    '{' (statement | declaration)* RETURN expr ';' '}' ';' #func_def
+;
+
+
+ident:
+    ID ( '=' expr )?
+    ;
+
+data_type:
+    INT #int
+    | FLOAT #float_dt
+    | STRING #string_dt
+    ;
+
+expr:
+    'sqrt' '(' expr ')' #sqrt
+    | expr '**' expr  #power
+    | expr '*' expr   #mult
+    | expr '/' expr   #div
+    | expr '+' expr   #add
+    | expr '-' expr   #sub
+    | expr '==' expr   #equal
+    | expr '>=' expr   #greaterEq
+    | expr '<=' expr   #lessEq
+    | ID              #id
+    | INTEGER         #integer
+    | DEC             #float
+    | STR             #string
+    ;
+
+
+
+// Lexer
+CONST: 'const';
+INT: 'int';
+FLOAT: 'float';
+STRING: 'str';
+IF: 'if';
+ELSE: 'else';
+WHILE: 'while';
+FUNC: 'func';
+RETURN: 'return';
+
+ID: [a-zA-Z]+;
+INTEGER: [0-9]+;
+DEC: [0-9]+.{1}[0-9]+;
+STR: '"' (~["])* ('""' ~["])* '"';
+
+
+WS : [ \t\n\r]+ -> skip;

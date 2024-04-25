@@ -1,0 +1,24 @@
+int one = 1;
+int two = 2;
+int three = one + two;
+int x = 1;
+
+str text = "perro";
+
+float decimal = 2.2;
+
+func int main(int paramA, str paramB, float paramC) {
+    int something = 10;
+
+    while(something >= 10) {
+        if(something == 1) {
+            text = "uno";
+        } else {
+            text = "mayor a uno";
+        };
+
+        something = something - 1;
+    };
+
+    return x;
+};
