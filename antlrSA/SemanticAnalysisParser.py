@@ -10,69 +10,71 @@ else:
 
 def serializedATN():
     return [
-        4,1,30,180,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,30,184,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,1,0,1,0,1,0,5,0,18,8,0,10,0,12,0,21,9,0,1,1,1,1,1,1,1,1,1,1,1,
         1,1,1,1,1,1,1,3,1,32,8,1,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,
         1,2,5,2,45,8,2,10,2,12,2,48,9,2,1,2,1,2,1,2,1,2,5,2,54,8,2,10,2,
         12,2,57,9,2,1,2,3,2,60,8,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,5,2,70,
         8,2,10,2,12,2,73,9,2,1,2,1,2,1,2,1,2,1,2,1,2,3,2,81,8,2,1,2,1,2,
         1,2,5,2,86,8,2,10,2,12,2,89,9,2,3,2,91,8,2,1,2,1,2,3,2,95,8,2,1,
-        3,1,3,1,3,1,3,1,3,1,3,1,3,1,3,1,3,1,3,5,3,107,8,3,10,3,12,3,110,
-        9,3,3,3,112,8,3,1,3,1,3,1,3,1,3,5,3,118,8,3,10,3,12,3,121,9,3,1,
-        3,1,3,1,3,1,3,1,3,1,3,1,4,1,4,1,4,3,4,132,8,4,1,5,1,5,1,5,3,5,137,
-        8,5,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,3,6,149,8,6,1,6,1,6,
-        1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,
-        1,6,1,6,1,6,1,6,1,6,1,6,5,6,175,8,6,10,6,12,6,178,9,6,1,6,0,1,12,
-        7,0,2,4,6,8,10,12,0,0,205,0,19,1,0,0,0,2,31,1,0,0,0,4,94,1,0,0,0,
-        6,96,1,0,0,0,8,128,1,0,0,0,10,136,1,0,0,0,12,148,1,0,0,0,14,18,3,
-        2,1,0,15,18,3,4,2,0,16,18,3,6,3,0,17,14,1,0,0,0,17,15,1,0,0,0,17,
-        16,1,0,0,0,18,21,1,0,0,0,19,17,1,0,0,0,19,20,1,0,0,0,20,1,1,0,0,
-        0,21,19,1,0,0,0,22,23,5,17,0,0,23,24,3,10,5,0,24,25,3,8,4,0,25,26,
-        5,1,0,0,26,32,1,0,0,0,27,28,3,10,5,0,28,29,3,8,4,0,29,30,5,1,0,0,
-        30,32,1,0,0,0,31,22,1,0,0,0,31,27,1,0,0,0,32,3,1,0,0,0,33,34,3,12,
-        6,0,34,35,5,2,0,0,35,36,3,12,6,0,36,37,5,1,0,0,37,95,1,0,0,0,38,
-        39,5,21,0,0,39,40,5,3,0,0,40,41,3,12,6,0,41,42,5,4,0,0,42,46,5,5,
-        0,0,43,45,3,4,2,0,44,43,1,0,0,0,45,48,1,0,0,0,46,44,1,0,0,0,46,47,
-        1,0,0,0,47,49,1,0,0,0,48,46,1,0,0,0,49,59,5,6,0,0,50,51,5,22,0,0,
-        51,55,5,5,0,0,52,54,3,4,2,0,53,52,1,0,0,0,54,57,1,0,0,0,55,53,1,
-        0,0,0,55,56,1,0,0,0,56,58,1,0,0,0,57,55,1,0,0,0,58,60,5,6,0,0,59,
-        50,1,0,0,0,59,60,1,0,0,0,60,61,1,0,0,0,61,62,5,1,0,0,62,95,1,0,0,
-        0,63,64,5,23,0,0,64,65,5,3,0,0,65,66,3,12,6,0,66,67,5,4,0,0,67,71,
-        5,5,0,0,68,70,3,4,2,0,69,68,1,0,0,0,70,73,1,0,0,0,71,69,1,0,0,0,
-        71,72,1,0,0,0,72,74,1,0,0,0,73,71,1,0,0,0,74,75,5,6,0,0,75,76,5,
-        1,0,0,76,95,1,0,0,0,77,78,5,26,0,0,78,90,5,3,0,0,79,81,5,26,0,0,
-        80,79,1,0,0,0,80,81,1,0,0,0,81,91,1,0,0,0,82,87,5,26,0,0,83,84,5,
-        7,0,0,84,86,5,26,0,0,85,83,1,0,0,0,86,89,1,0,0,0,87,85,1,0,0,0,87,
-        88,1,0,0,0,88,91,1,0,0,0,89,87,1,0,0,0,90,80,1,0,0,0,90,82,1,0,0,
-        0,91,92,1,0,0,0,92,93,5,4,0,0,93,95,5,1,0,0,94,33,1,0,0,0,94,38,
-        1,0,0,0,94,63,1,0,0,0,94,77,1,0,0,0,95,5,1,0,0,0,96,97,5,24,0,0,
-        97,98,3,10,5,0,98,99,5,26,0,0,99,111,5,3,0,0,100,101,3,10,5,0,101,
-        108,3,8,4,0,102,103,5,7,0,0,103,104,3,10,5,0,104,105,3,8,4,0,105,
-        107,1,0,0,0,106,102,1,0,0,0,107,110,1,0,0,0,108,106,1,0,0,0,108,
-        109,1,0,0,0,109,112,1,0,0,0,110,108,1,0,0,0,111,100,1,0,0,0,111,
-        112,1,0,0,0,112,113,1,0,0,0,113,114,5,4,0,0,114,119,5,5,0,0,115,
-        118,3,4,2,0,116,118,3,2,1,0,117,115,1,0,0,0,117,116,1,0,0,0,118,
-        121,1,0,0,0,119,117,1,0,0,0,119,120,1,0,0,0,120,122,1,0,0,0,121,
-        119,1,0,0,0,122,123,5,25,0,0,123,124,3,12,6,0,124,125,5,1,0,0,125,
-        126,5,6,0,0,126,127,5,1,0,0,127,7,1,0,0,0,128,131,5,26,0,0,129,130,
-        5,2,0,0,130,132,3,12,6,0,131,129,1,0,0,0,131,132,1,0,0,0,132,9,1,
-        0,0,0,133,137,5,18,0,0,134,137,5,19,0,0,135,137,5,20,0,0,136,133,
-        1,0,0,0,136,134,1,0,0,0,136,135,1,0,0,0,137,11,1,0,0,0,138,139,6,
-        6,-1,0,139,140,5,8,0,0,140,141,5,3,0,0,141,142,3,12,6,0,142,143,
-        5,4,0,0,143,149,1,0,0,0,144,149,5,26,0,0,145,149,5,27,0,0,146,149,
-        5,28,0,0,147,149,5,29,0,0,148,138,1,0,0,0,148,144,1,0,0,0,148,145,
-        1,0,0,0,148,146,1,0,0,0,148,147,1,0,0,0,149,176,1,0,0,0,150,151,
-        10,12,0,0,151,152,5,9,0,0,152,175,3,12,6,13,153,154,10,11,0,0,154,
-        155,5,10,0,0,155,175,3,12,6,12,156,157,10,10,0,0,157,158,5,11,0,
-        0,158,175,3,12,6,11,159,160,10,9,0,0,160,161,5,12,0,0,161,175,3,
-        12,6,10,162,163,10,8,0,0,163,164,5,13,0,0,164,175,3,12,6,9,165,166,
-        10,7,0,0,166,167,5,14,0,0,167,175,3,12,6,8,168,169,10,6,0,0,169,
-        170,5,15,0,0,170,175,3,12,6,7,171,172,10,5,0,0,172,173,5,16,0,0,
-        173,175,3,12,6,6,174,150,1,0,0,0,174,153,1,0,0,0,174,156,1,0,0,0,
-        174,159,1,0,0,0,174,162,1,0,0,0,174,165,1,0,0,0,174,168,1,0,0,0,
-        174,171,1,0,0,0,175,178,1,0,0,0,176,174,1,0,0,0,176,177,1,0,0,0,
-        177,13,1,0,0,0,178,176,1,0,0,0,20,17,19,31,46,55,59,71,80,87,90,
-        94,108,111,117,119,131,136,148,174,176
+        3,1,3,1,3,1,3,1,3,1,3,3,3,103,8,3,1,3,1,3,1,3,1,3,1,3,1,3,5,3,111,
+        8,3,10,3,12,3,114,9,3,3,3,116,8,3,1,3,1,3,1,3,1,3,5,3,122,8,3,10,
+        3,12,3,125,9,3,1,3,1,3,1,3,1,3,1,3,1,3,1,4,1,4,1,4,3,4,136,8,4,1,
+        5,1,5,1,5,3,5,141,8,5,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,3,
+        6,153,8,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,
+        6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,1,6,5,6,179,8,6,10,6,12,6,
+        182,9,6,1,6,0,1,12,7,0,2,4,6,8,10,12,0,0,210,0,19,1,0,0,0,2,31,1,
+        0,0,0,4,94,1,0,0,0,6,96,1,0,0,0,8,132,1,0,0,0,10,140,1,0,0,0,12,
+        152,1,0,0,0,14,18,3,2,1,0,15,18,3,4,2,0,16,18,3,6,3,0,17,14,1,0,
+        0,0,17,15,1,0,0,0,17,16,1,0,0,0,18,21,1,0,0,0,19,17,1,0,0,0,19,20,
+        1,0,0,0,20,1,1,0,0,0,21,19,1,0,0,0,22,23,5,17,0,0,23,24,3,10,5,0,
+        24,25,3,8,4,0,25,26,5,1,0,0,26,32,1,0,0,0,27,28,3,10,5,0,28,29,3,
+        8,4,0,29,30,5,1,0,0,30,32,1,0,0,0,31,22,1,0,0,0,31,27,1,0,0,0,32,
+        3,1,0,0,0,33,34,3,12,6,0,34,35,5,2,0,0,35,36,3,12,6,0,36,37,5,1,
+        0,0,37,95,1,0,0,0,38,39,5,21,0,0,39,40,5,3,0,0,40,41,3,12,6,0,41,
+        42,5,4,0,0,42,46,5,5,0,0,43,45,3,4,2,0,44,43,1,0,0,0,45,48,1,0,0,
+        0,46,44,1,0,0,0,46,47,1,0,0,0,47,49,1,0,0,0,48,46,1,0,0,0,49,59,
+        5,6,0,0,50,51,5,22,0,0,51,55,5,5,0,0,52,54,3,4,2,0,53,52,1,0,0,0,
+        54,57,1,0,0,0,55,53,1,0,0,0,55,56,1,0,0,0,56,58,1,0,0,0,57,55,1,
+        0,0,0,58,60,5,6,0,0,59,50,1,0,0,0,59,60,1,0,0,0,60,61,1,0,0,0,61,
+        62,5,1,0,0,62,95,1,0,0,0,63,64,5,23,0,0,64,65,5,3,0,0,65,66,3,12,
+        6,0,66,67,5,4,0,0,67,71,5,5,0,0,68,70,3,4,2,0,69,68,1,0,0,0,70,73,
+        1,0,0,0,71,69,1,0,0,0,71,72,1,0,0,0,72,74,1,0,0,0,73,71,1,0,0,0,
+        74,75,5,6,0,0,75,76,5,1,0,0,76,95,1,0,0,0,77,78,5,26,0,0,78,90,5,
+        3,0,0,79,81,5,26,0,0,80,79,1,0,0,0,80,81,1,0,0,0,81,91,1,0,0,0,82,
+        87,5,26,0,0,83,84,5,7,0,0,84,86,5,26,0,0,85,83,1,0,0,0,86,89,1,0,
+        0,0,87,85,1,0,0,0,87,88,1,0,0,0,88,91,1,0,0,0,89,87,1,0,0,0,90,80,
+        1,0,0,0,90,82,1,0,0,0,91,92,1,0,0,0,92,93,5,4,0,0,93,95,5,1,0,0,
+        94,33,1,0,0,0,94,38,1,0,0,0,94,63,1,0,0,0,94,77,1,0,0,0,95,5,1,0,
+        0,0,96,97,5,24,0,0,97,98,3,10,5,0,98,99,5,26,0,0,99,115,5,3,0,0,
+        100,102,3,10,5,0,101,103,3,8,4,0,102,101,1,0,0,0,102,103,1,0,0,0,
+        103,116,1,0,0,0,104,105,3,10,5,0,105,112,3,8,4,0,106,107,5,7,0,0,
+        107,108,3,10,5,0,108,109,3,8,4,0,109,111,1,0,0,0,110,106,1,0,0,0,
+        111,114,1,0,0,0,112,110,1,0,0,0,112,113,1,0,0,0,113,116,1,0,0,0,
+        114,112,1,0,0,0,115,100,1,0,0,0,115,104,1,0,0,0,116,117,1,0,0,0,
+        117,118,5,4,0,0,118,123,5,5,0,0,119,122,3,4,2,0,120,122,3,2,1,0,
+        121,119,1,0,0,0,121,120,1,0,0,0,122,125,1,0,0,0,123,121,1,0,0,0,
+        123,124,1,0,0,0,124,126,1,0,0,0,125,123,1,0,0,0,126,127,5,25,0,0,
+        127,128,3,8,4,0,128,129,5,1,0,0,129,130,5,6,0,0,130,131,5,1,0,0,
+        131,7,1,0,0,0,132,135,5,26,0,0,133,134,5,2,0,0,134,136,3,12,6,0,
+        135,133,1,0,0,0,135,136,1,0,0,0,136,9,1,0,0,0,137,141,5,18,0,0,138,
+        141,5,19,0,0,139,141,5,20,0,0,140,137,1,0,0,0,140,138,1,0,0,0,140,
+        139,1,0,0,0,141,11,1,0,0,0,142,143,6,6,-1,0,143,144,5,8,0,0,144,
+        145,5,3,0,0,145,146,3,12,6,0,146,147,5,4,0,0,147,153,1,0,0,0,148,
+        153,5,26,0,0,149,153,5,27,0,0,150,153,5,28,0,0,151,153,5,29,0,0,
+        152,142,1,0,0,0,152,148,1,0,0,0,152,149,1,0,0,0,152,150,1,0,0,0,
+        152,151,1,0,0,0,153,180,1,0,0,0,154,155,10,12,0,0,155,156,5,9,0,
+        0,156,179,3,12,6,13,157,158,10,11,0,0,158,159,5,10,0,0,159,179,3,
+        12,6,12,160,161,10,10,0,0,161,162,5,11,0,0,162,179,3,12,6,11,163,
+        164,10,9,0,0,164,165,5,12,0,0,165,179,3,12,6,10,166,167,10,8,0,0,
+        167,168,5,13,0,0,168,179,3,12,6,9,169,170,10,7,0,0,170,171,5,14,
+        0,0,171,179,3,12,6,8,172,173,10,6,0,0,173,174,5,15,0,0,174,179,3,
+        12,6,7,175,176,10,5,0,0,176,177,5,16,0,0,177,179,3,12,6,6,178,154,
+        1,0,0,0,178,157,1,0,0,0,178,160,1,0,0,0,178,163,1,0,0,0,178,166,
+        1,0,0,0,178,169,1,0,0,0,178,172,1,0,0,0,178,175,1,0,0,0,179,182,
+        1,0,0,0,180,178,1,0,0,0,180,181,1,0,0,0,181,13,1,0,0,0,182,180,1,
+        0,0,0,21,17,19,31,46,55,59,71,80,87,90,94,102,112,115,121,123,135,
+        140,152,178,180
     ]
 
 class SemanticAnalysisParser ( Parser ):
@@ -691,9 +693,6 @@ class SemanticAnalysisParser ( Parser ):
             return self.getToken(SemanticAnalysisParser.ID, 0)
         def RETURN(self):
             return self.getToken(SemanticAnalysisParser.RETURN, 0)
-        def expr(self):
-            return self.getTypedRuleContext(SemanticAnalysisParser.ExprContext,0)
-
         def ident(self, i:int=None):
             if i is None:
                 return self.getTypedRuleContexts(SemanticAnalysisParser.IdentContext)
@@ -745,65 +744,79 @@ class SemanticAnalysisParser ( Parser ):
             self.match(SemanticAnalysisParser.ID)
             self.state = 99
             self.match(SemanticAnalysisParser.T__2)
-            self.state = 111
+            self.state = 115
             self._errHandler.sync(self)
-            _la = self._input.LA(1)
-            if (((_la) & ~0x3f) == 0 and ((1 << _la) & 1835008) != 0):
+            la_ = self._interp.adaptivePredict(self._input,13,self._ctx)
+            if la_ == 1:
                 self.state = 100
                 self.data_type()
-                self.state = 101
+                self.state = 102
+                self._errHandler.sync(self)
+                _la = self._input.LA(1)
+                if _la==26:
+                    self.state = 101
+                    self.ident()
+
+
+                pass
+
+            elif la_ == 2:
+                self.state = 104
+                self.data_type()
+                self.state = 105
                 self.ident()
-                self.state = 108
+                self.state = 112
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 while _la==7:
-                    self.state = 102
+                    self.state = 106
                     self.match(SemanticAnalysisParser.T__6)
-                    self.state = 103
+                    self.state = 107
                     self.data_type()
-                    self.state = 104
+                    self.state = 108
                     self.ident()
-                    self.state = 110
+                    self.state = 114
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
 
+                pass
 
 
-            self.state = 113
+            self.state = 117
             self.match(SemanticAnalysisParser.T__3)
-            self.state = 114
+            self.state = 118
             self.match(SemanticAnalysisParser.T__4)
-            self.state = 119
+            self.state = 123
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 1019085056) != 0):
-                self.state = 117
+                self.state = 121
                 self._errHandler.sync(self)
                 token = self._input.LA(1)
                 if token in [8, 21, 23, 26, 27, 28, 29]:
-                    self.state = 115
+                    self.state = 119
                     self.statement()
                     pass
                 elif token in [17, 18, 19, 20]:
-                    self.state = 116
+                    self.state = 120
                     self.declaration()
                     pass
                 else:
                     raise NoViableAltException(self)
 
-                self.state = 121
+                self.state = 125
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 122
-            self.match(SemanticAnalysisParser.RETURN)
-            self.state = 123
-            self.expr(0)
-            self.state = 124
-            self.match(SemanticAnalysisParser.T__0)
-            self.state = 125
-            self.match(SemanticAnalysisParser.T__5)
             self.state = 126
+            self.match(SemanticAnalysisParser.RETURN)
+            self.state = 127
+            self.ident()
+            self.state = 128
+            self.match(SemanticAnalysisParser.T__0)
+            self.state = 129
+            self.match(SemanticAnalysisParser.T__5)
+            self.state = 130
             self.match(SemanticAnalysisParser.T__0)
         except RecognitionException as re:
             localctx.exception = re
@@ -855,15 +868,15 @@ class SemanticAnalysisParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 128
+            self.state = 132
             self.match(SemanticAnalysisParser.ID)
-            self.state = 131
+            self.state = 135
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==2:
-                self.state = 129
+                self.state = 133
                 self.match(SemanticAnalysisParser.T__1)
-                self.state = 130
+                self.state = 134
                 self.expr(0)
 
 
@@ -971,25 +984,25 @@ class SemanticAnalysisParser ( Parser ):
         localctx = SemanticAnalysisParser.Data_typeContext(self, self._ctx, self.state)
         self.enterRule(localctx, 10, self.RULE_data_type)
         try:
-            self.state = 136
+            self.state = 140
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [18]:
                 localctx = SemanticAnalysisParser.IntContext(self, localctx)
                 self.enterOuterAlt(localctx, 1)
-                self.state = 133
+                self.state = 137
                 self.match(SemanticAnalysisParser.INT)
                 pass
             elif token in [19]:
                 localctx = SemanticAnalysisParser.Float_dtContext(self, localctx)
                 self.enterOuterAlt(localctx, 2)
-                self.state = 134
+                self.state = 138
                 self.match(SemanticAnalysisParser.FLOAT)
                 pass
             elif token in [20]:
                 localctx = SemanticAnalysisParser.String_dtContext(self, localctx)
                 self.enterOuterAlt(localctx, 3)
-                self.state = 135
+                self.state = 139
                 self.match(SemanticAnalysisParser.STRING)
                 pass
             else:
@@ -1375,7 +1388,7 @@ class SemanticAnalysisParser ( Parser ):
         self.enterRecursionRule(localctx, 12, self.RULE_expr, _p)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 148
+            self.state = 152
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [8]:
@@ -1383,166 +1396,166 @@ class SemanticAnalysisParser ( Parser ):
                 self._ctx = localctx
                 _prevctx = localctx
 
-                self.state = 139
+                self.state = 143
                 self.match(SemanticAnalysisParser.T__7)
-                self.state = 140
+                self.state = 144
                 self.match(SemanticAnalysisParser.T__2)
-                self.state = 141
+                self.state = 145
                 self.expr(0)
-                self.state = 142
+                self.state = 146
                 self.match(SemanticAnalysisParser.T__3)
                 pass
             elif token in [26]:
                 localctx = SemanticAnalysisParser.IdContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 144
+                self.state = 148
                 self.match(SemanticAnalysisParser.ID)
                 pass
             elif token in [27]:
                 localctx = SemanticAnalysisParser.IntegerContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 145
+                self.state = 149
                 self.match(SemanticAnalysisParser.INTEGER)
                 pass
             elif token in [28]:
                 localctx = SemanticAnalysisParser.FloatContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 146
+                self.state = 150
                 self.match(SemanticAnalysisParser.DEC)
                 pass
             elif token in [29]:
                 localctx = SemanticAnalysisParser.StringContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
-                self.state = 147
+                self.state = 151
                 self.match(SemanticAnalysisParser.STR)
                 pass
             else:
                 raise NoViableAltException(self)
 
             self._ctx.stop = self._input.LT(-1)
-            self.state = 176
+            self.state = 180
             self._errHandler.sync(self)
-            _alt = self._interp.adaptivePredict(self._input,19,self._ctx)
+            _alt = self._interp.adaptivePredict(self._input,20,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
                 if _alt==1:
                     if self._parseListeners is not None:
                         self.triggerExitRuleEvent()
                     _prevctx = localctx
-                    self.state = 174
+                    self.state = 178
                     self._errHandler.sync(self)
-                    la_ = self._interp.adaptivePredict(self._input,18,self._ctx)
+                    la_ = self._interp.adaptivePredict(self._input,19,self._ctx)
                     if la_ == 1:
                         localctx = SemanticAnalysisParser.PowerContext(self, SemanticAnalysisParser.ExprContext(self, _parentctx, _parentState))
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 150
+                        self.state = 154
                         if not self.precpred(self._ctx, 12):
                             from antlr4.error.Errors import FailedPredicateException
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 12)")
-                        self.state = 151
+                        self.state = 155
                         self.match(SemanticAnalysisParser.T__8)
-                        self.state = 152
+                        self.state = 156
                         self.expr(13)
                         pass
 
                     elif la_ == 2:
                         localctx = SemanticAnalysisParser.MultContext(self, SemanticAnalysisParser.ExprContext(self, _parentctx, _parentState))
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 153
+                        self.state = 157
                         if not self.precpred(self._ctx, 11):
                             from antlr4.error.Errors import FailedPredicateException
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 11)")
-                        self.state = 154
+                        self.state = 158
                         self.match(SemanticAnalysisParser.T__9)
-                        self.state = 155
+                        self.state = 159
                         self.expr(12)
                         pass
 
                     elif la_ == 3:
                         localctx = SemanticAnalysisParser.DivContext(self, SemanticAnalysisParser.ExprContext(self, _parentctx, _parentState))
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 156
+                        self.state = 160
                         if not self.precpred(self._ctx, 10):
                             from antlr4.error.Errors import FailedPredicateException
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 10)")
-                        self.state = 157
+                        self.state = 161
                         self.match(SemanticAnalysisParser.T__10)
-                        self.state = 158
+                        self.state = 162
                         self.expr(11)
                         pass
 
                     elif la_ == 4:
                         localctx = SemanticAnalysisParser.AddContext(self, SemanticAnalysisParser.ExprContext(self, _parentctx, _parentState))
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 159
+                        self.state = 163
                         if not self.precpred(self._ctx, 9):
                             from antlr4.error.Errors import FailedPredicateException
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 9)")
-                        self.state = 160
+                        self.state = 164
                         self.match(SemanticAnalysisParser.T__11)
-                        self.state = 161
+                        self.state = 165
                         self.expr(10)
                         pass
 
                     elif la_ == 5:
                         localctx = SemanticAnalysisParser.SubContext(self, SemanticAnalysisParser.ExprContext(self, _parentctx, _parentState))
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 162
+                        self.state = 166
                         if not self.precpred(self._ctx, 8):
                             from antlr4.error.Errors import FailedPredicateException
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 8)")
-                        self.state = 163
+                        self.state = 167
                         self.match(SemanticAnalysisParser.T__12)
-                        self.state = 164
+                        self.state = 168
                         self.expr(9)
                         pass
 
                     elif la_ == 6:
                         localctx = SemanticAnalysisParser.EqualContext(self, SemanticAnalysisParser.ExprContext(self, _parentctx, _parentState))
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 165
+                        self.state = 169
                         if not self.precpred(self._ctx, 7):
                             from antlr4.error.Errors import FailedPredicateException
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 7)")
-                        self.state = 166
+                        self.state = 170
                         self.match(SemanticAnalysisParser.T__13)
-                        self.state = 167
+                        self.state = 171
                         self.expr(8)
                         pass
 
                     elif la_ == 7:
                         localctx = SemanticAnalysisParser.GreaterEqContext(self, SemanticAnalysisParser.ExprContext(self, _parentctx, _parentState))
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 168
+                        self.state = 172
                         if not self.precpred(self._ctx, 6):
                             from antlr4.error.Errors import FailedPredicateException
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 6)")
-                        self.state = 169
+                        self.state = 173
                         self.match(SemanticAnalysisParser.T__14)
-                        self.state = 170
+                        self.state = 174
                         self.expr(7)
                         pass
 
                     elif la_ == 8:
                         localctx = SemanticAnalysisParser.LessEqContext(self, SemanticAnalysisParser.ExprContext(self, _parentctx, _parentState))
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 171
+                        self.state = 175
                         if not self.precpred(self._ctx, 5):
                             from antlr4.error.Errors import FailedPredicateException
                             raise FailedPredicateException(self, "self.precpred(self._ctx, 5)")
-                        self.state = 172
+                        self.state = 176
                         self.match(SemanticAnalysisParser.T__15)
-                        self.state = 173
+                        self.state = 177
                         self.expr(6)
                         pass
 
              
-                self.state = 178
+                self.state = 182
                 self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,19,self._ctx)
+                _alt = self._interp.adaptivePredict(self._input,20,self._ctx)
 
         except RecognitionException as re:
             localctx.exception = re

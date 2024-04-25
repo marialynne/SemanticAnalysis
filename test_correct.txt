@@ -20,5 +20,5 @@ func int main(int paramA, str paramB, float paramC) {
         something = something - 1;
     };
 
-    return x;
+    return 1;
 };

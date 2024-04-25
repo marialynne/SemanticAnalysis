@@ -1,2 +1,1 @@
-int one = 1;
-int three = one + two;
+three = 2;

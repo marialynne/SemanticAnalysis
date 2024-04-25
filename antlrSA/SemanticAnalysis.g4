@@ -18,8 +18,8 @@ statement:
 ;
 
 function:
-    FUNC data_type ID '(' (data_type ident (',' data_type ident)*)? ')'
-    '{' (statement | declaration)* RETURN expr ';' '}' ';' #func_def
+    FUNC data_type ID '(' (  data_type ident ? |  data_type ident (',' data_type ident )* ) ')'
+    '{' (statement | declaration)* RETURN ident ';' '}' ';' #func_def
 ;
 
 
@@ -34,7 +34,7 @@ data_type:
     ;
 
 expr:
-    'sqrt' '(' expr ')' #sqrt
+    'sqrt' '('expr')' #sqrt
     | expr '**' expr  #power
     | expr '*' expr   #mult
     | expr '/' expr   #div
@@ -48,7 +48,6 @@ expr:
     | DEC             #float
     | STR             #string
     ;
-
 
 
 // Lexer
